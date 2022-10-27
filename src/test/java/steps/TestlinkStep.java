@@ -1,7 +1,8 @@
 package steps;
 
-import cucumber.api.java.pt.*;
-import org.openqa.selenium.By;
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.E;
+import cucumber.api.java.pt.Então;
 import pages.TestlinkPage;
 import runner.RunCucumber;
 

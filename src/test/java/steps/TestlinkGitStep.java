@@ -18,14 +18,4 @@ public class TestlinkGitStep extends RunCucumber {
     public void verifico_a_mensagem_do_sobre() {
         testlinkGitPage.verificarMensagemSobre();
     }
-
-    @Quando("^eu pesquiso por \"([^\"]*)\" na barra de pesquisa$")
-    public void eu_pesquiso_por_na_barra_de_pesquisa(String texto) {
-        testlinkGitPage.digitarBarraPesquisa(texto);
-    }
-
-    @Então("^devo ver a mensagem \"([^\"]*)\"$")
-    public void devo_ver_a_mensagem(String mensagem) {
-        testlinkGitPage.verificarResultadoPesquisa(mensagem);
-    }
 }
